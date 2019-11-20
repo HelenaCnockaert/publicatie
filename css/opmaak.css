@@ -1,0 +1,191 @@
+.linker-kant-afstand{
+	margin-left: 5%;
+	margin-top: 5%;
+
+} 
+
+#sidebar{
+	left: 0px;
+	margin-top: 20px;
+}
+
+#sidebar > ul > li {
+ margin-top: 10px;
+}
+
+#sidebarwhite{
+  left: 0px;
+  margin-top: 20px;
+}
+
+#sidebarwhite > ul > li {
+ margin-top: 10px;
+}
+
+#sidebar > ul > li > a {
+	color: black;
+}
+
+#sidebarwhite > ul > li > a {
+  color: white;
+}
+
+.active {
+ text-decoration: underline;
+ }
+
+.fullwidth {
+	padding-top: 20px;
+    width: 100% !important;
+}
+
+.no-margin-image{
+	padding-top: 0px;
+}
+
+.needmargintop {
+	margin-top: 3%;
+}
+.needbigmargintop {
+	margin-top: 6%;
+}
+
+#wittetekstrechts{
+  color: white;
+  float: right;
+  text-align: right
+}
+.blacklink {
+	color:black;
+}
+.whitelink {
+  color:white;
+}
+.blacklink:hover{
+    text-decoration: none;
+    color:black;
+}
+.whitelink:hover{
+    text-decoration: none;
+    color:white;
+}
+
+.neat-roulette{
+	max-width: 95%;
+}
+
+#homestart{
+	background-image: url("../images/achtergronden/achtergrond_start.jpg");
+	background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+}
+
+#over-achtergrond{
+  background-image: url("../images/achtergronden/achtergrond_over.jpg");
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  color: white !important;
+}
+@font-face {
+  font-family: future;
+  src: url(../font/future.ttf);
+}
+.leuklettertype{
+    font-family: 'future';
+    font-size: 18px;
+}
+.neat-roulette > div > div > img{
+  max-width: 50%;
+  margin-left: 25%;
+  height: 50%;
+}
+
+.animate-in {
+    -webkit-animation: fadeIn .5s ease-in;
+    animation: fadeIn .5s ease-in;
+}
+
+.animate-out {
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+    opacity: 0;
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 103%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #A9A9A9;
+}
+
+.container:hover .overlay {
+  opacity: .7;
+}
+
+.text {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 40px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 40px;
+  color: black;
+}
+.werk-titel{
+  text-align: center;
+}
+.carousel-inner{
+  margin-top: 50px;
+}
+.row{
+  margin-right: 0px;
+}
